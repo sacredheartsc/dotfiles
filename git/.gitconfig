@@ -1,0 +1,31 @@
+[user]
+  name = Stonewall Jackson
+  email = stonewall@sacredheartsc.com
+
+[core]
+  pager = less -FX
+  askPass =
+
+[color]
+  ui = auto
+
+[diff]
+  mnemonicPrefix = true
+
+[grep]
+  extendedRegexp = true
+
+[merge]
+  conflictStyle = diff3
+
+[pull]
+  rebase = preserve
+
+[status]
+  showUntrackedFiles = all
+
+[tag]
+  sort = version:refname
+
+[http]
+  emptyAuth = true
